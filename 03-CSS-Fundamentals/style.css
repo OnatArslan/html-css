@@ -48,7 +48,19 @@ footer p {
   font-size: 16px;
 }
 
-article header p {
+p#author {
+  color: purple;
+}
+
+/* article header p {
   font-style: italic;
   color: rgb(255, 0, 0);
+} */
+
+#copyright {
+  font-size: 18px;
+}
+
+.related-1 {
+  font-size: 30px;
 }
