@@ -14,7 +14,6 @@
       }
       .el--3 {
         background-color: green;
-        height: 150px;
       }
       .el--4 {
         background-color: goldenrod;
@@ -31,6 +30,9 @@
       .el--8 {
         background-color: crimson;
       }
+      .el--9 {
+        background-color: rgb(49, 40, 89);
+      }
 
       .container--1 {
         /* STARTER */
@@ -40,9 +42,16 @@
         margin: 40px;
 
         /* CSS GRID */
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px;
+
+        column-gap: 20px;
+        row-gap: 50px;
       }
 
       .container--2 {
+        display: none;
         /* STARTER */
         font-family: sans-serif;
         background-color: black;
@@ -66,6 +75,7 @@
       <div class="el el--6">(6) languages</div>
       <div class="el el--7">(7) to</div>
       <div class="el el--8">(8) learn</div>
+      <div class="el el--9">(8) xdxd</div>
     </div>
 
     <div class="container--2">
