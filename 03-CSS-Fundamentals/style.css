@@ -7,6 +7,7 @@ body {
   color: #444444;
   font-family: sans-serif;
   border-top: 20px solid;
+  position: relative;
 }
 
 .container {
@@ -18,7 +19,7 @@ body {
 header.main-header {
   background-color: #444444;
   padding: 20px 10px;
-  margin: 20px;
+
   /* height: 100px; */
 }
 
@@ -35,6 +36,16 @@ aside {
 .post-img {
   width: 50%;
   height: auto;
+}
+
+button {
+  font-size: 22px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20%;
+  position: absolute;
+  top: 30px;
+  left: 0;
 }
 
 h1,
@@ -145,7 +156,7 @@ a:active {
 
 nav a:link {
   background-color: orangered;
-  margin: auto;
-  padding: auto;
+  margin: 30px;
+  padding: 10px;
   display: inline-block;
 }
