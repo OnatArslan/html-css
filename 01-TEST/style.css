@@ -1,0 +1,122 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  font-family: "Inter";
+}
+
+/* Navbar styles */
+header {
+  background-color: #005f99;
+  color: white;
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #004080;
+  border-radius: 4px;
+}
+
+/* Main section styles */
+.event-section {
+  width: 80%;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.event-section h1 {
+  margin-bottom: 2rem;
+  color: #005f99;
+}
+
+.event-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.event-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  width: 300px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.event-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-card h2 {
+  margin: 1rem 0;
+  color: #333;
+}
+
+.event-card p {
+  padding: 0 1rem;
+  color: #777;
+}
+
+.event-card button {
+  background-color: #005f99;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.event-card button:hover {
+  background-color: #004080;
+}
+
+/* Footer styles */
+footer {
+  background-color: #005f99;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
