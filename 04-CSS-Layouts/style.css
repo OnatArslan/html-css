@@ -197,7 +197,7 @@ nav a:link {
   display: block; */
 
   margin-right: 30px;
-  margin-top: 10px;
+
   display: inline-block;
 }
 
@@ -265,3 +265,10 @@ footer p {
 nav p {
   font-size: 18px;
 } */
+
+/* FLEXBOX PART */
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
