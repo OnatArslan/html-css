@@ -304,3 +304,17 @@ nav p {
   font-weight: bold;
   font-style: italic;
 }
+
+.row {
+  display: flex;
+  gap: 75px;
+  align-items: flex-start;
+}
+
+aside {
+  flex-basis: 0 0 300px;
+}
+
+article {
+  flex: 0 0 825px;
+}
