@@ -9,6 +9,12 @@ body {
   border-top: 20px solid;
 }
 
+.container {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 header.main-header {
   background-color: #444444;
   padding: 20px 10px;
@@ -27,7 +33,8 @@ aside {
 }
 
 .post-img {
-  width: 800px;
+  width: 50%;
+  height: auto;
 }
 
 h1,
