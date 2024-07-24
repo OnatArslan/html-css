@@ -1,5 +1,4 @@
 html {
-  background-color: rgb(241, 226, 237);
 }
 
 h1,
@@ -9,11 +8,17 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444444;
+}
+
+h1,
+h2,
+h3 {
+  color: chocolate;
 }
 
 h1 {
   font-size: 40px;
-
   text-transform: uppercase;
   font-style: italic;
 }
@@ -63,4 +68,14 @@ p#author {
 
 .related-1 {
   font-size: 30px;
+}
+
+header {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 2px solid #444444;
+  border-bottom: 2px solid #444444;
 }
