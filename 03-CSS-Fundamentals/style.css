@@ -19,7 +19,7 @@ header.main-header {
   background-color: #444444;
   padding: 20px 10px;
   margin: 20px;
-  height: 100px;
+  /* height: 100px; */
 }
 
 aside {
@@ -141,4 +141,11 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+}
+
+nav a:link {
+  background-color: orangered;
+  margin: auto;
+  padding: auto;
+  display: inline-block;
 }
