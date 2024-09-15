@@ -1,15 +1,8 @@
-body {
-  background-color: whitesmoke;
-  font-family: 'Courier New', Courier, monospace;
-  margin-top: 0px;
-  padding-top: 0px;
-}
-
 .all-container {
-  background-color: azure;
   width: 700px;
-  margin-top: 0px;
-  padding-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
