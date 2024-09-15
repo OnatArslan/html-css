@@ -270,3 +270,9 @@ nav p {
   align-items: center;
   justify-content: space-between;
 }
+
+.author-box {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
