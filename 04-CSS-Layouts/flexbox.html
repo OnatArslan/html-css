@@ -38,11 +38,28 @@
         background-color: #ddd;
         font-size: 40px;
         margin: 40px;
+        gap: 30px;
+
+        .el {
+          flex-grow: 0;
+          flex-shrink: 1;
+          flex-basis: auto;
+        }
 
         /* FLEXBOX */
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start;
+      }
+      .el--1 {
+        align-self: flex-start;
+      }
+      .el--5 {
+        align-self: stretch;
+      }
+
+      .el--6 {
+        order: -1;
       }
     </style>
   </head>
