@@ -29,9 +29,13 @@
       }
       .el--8 {
         background-color: crimson;
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
       }
       .el--9 {
         background-color: magenta;
+        grid-column: 3/ 4;
+        grid-row: 1/2;
       }
       .container--1 {
         /* STARTER */
@@ -42,11 +46,11 @@
 
         /* CSS GRID */
         display: grid;
-        grid-template-columns: 30% 30% 30%;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 200px 200px 200px;
 
         column-gap: 30px;
-        row-gap: 60px;
+        row-gap: 30px;
         justify-content: center;
         /* align-items: stretch; */
       }
