@@ -278,3 +278,13 @@ nav p {
   margin-bottom: 0px;
   margin-left: 15px;
 }
+
+.related-post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.related-author {
+  margin-bottom: 0px;
+}
