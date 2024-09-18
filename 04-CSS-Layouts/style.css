@@ -283,8 +283,33 @@ nav p {
   display: flex;
   align-items: center;
   margin-bottom: 0px;
+  gap: 5px;
+}
+
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 5px;
+  display: block;
 }
 
 .related-author {
   margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.row {
+  display: flex;
+  gap: 75px;
+}
+
+.artice {
+  flex: 0 0 825px;
+}
+
+.aside {
+  flex: 0 0 300px;
 }
