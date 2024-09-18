@@ -271,4 +271,10 @@ nav p {
   display: flex;
   gap: 20px;
   align-items: center;
+  margin-bottom: 15px;
+}
+
+#author {
+  margin-bottom: 0px;
+  margin-left: 15px;
 }
